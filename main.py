@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-#Configure your Groq API Key
+#Configure Groq API Key
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key="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" 
