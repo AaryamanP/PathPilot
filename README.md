@@ -16,10 +16,22 @@ PathPilot is a personalized AI-powered career guidance platform designed to supp
 
 ---
 
+
 ## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/pathpilot.git
-cd pathpilot
+cd pathpilot 
+
+### 2. Install Dependencies
+
+Make sure you have Python 3.9+ installed.
+
+pip install -r requirements.txt
+
+### 3. Run the App
+
+streamlit run main.py (in terminal)
+
+The app will open in your default browser.
