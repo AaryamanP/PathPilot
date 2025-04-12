@@ -1,10 +1,10 @@
 import streamlit as st
 from openai import OpenAI
 
-# 🗝️ Configure your Groq API Key
+#Configure your Groq API Key
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="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"  # Replace with your real API key
+    api_key="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" 
 )
 
 # Page config
@@ -82,7 +82,7 @@ st.markdown("""
 st.title("🎯 Inclusive Career Guidance")
 st.write("Get personalized career suggestions based on your strengths, preferences, and needs.")
 
-# 🌟 Form Inputs
+# Form Inputs
 with st.form("career_form"):
     conditions = st.multiselect(
         "Do you have any diagnosed conditions?",
@@ -138,7 +138,7 @@ with st.form("career_form"):
 
     submitted = st.form_submit_button("🔍 Get Career Suggestions")
 
-# 🧠 AI Suggestion
+# AI Suggestion
 if submitted:
     st.info("Analyzing your answers with AI...")
     user_data = f"""
